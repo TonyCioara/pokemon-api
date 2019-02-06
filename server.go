@@ -15,6 +15,7 @@ type Ability struct {
 	Url  string `json:"url"`
 }
 
+// Routes
 func helloWorld(c echo.Context) error {
 	return c.String(http.StatusOK, "Hello, World!")
 }
